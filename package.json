@@ -4,7 +4,8 @@
   "description": "WelkamBot - Telegram bot",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [
     "bot",
@@ -17,5 +18,8 @@
     "dotenv": "^8.2.0",
     "fastify": "^2.11.0",
     "unirest": "^0.6.0"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
